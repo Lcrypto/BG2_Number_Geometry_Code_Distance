@@ -8,10 +8,9 @@
 
 
 
-   % H=qc2sparse('a2_2_1_3.txt');
-    %H=qc2sparse('a2_4_1_3.txt');
-    H=qc2sparse('a2_8_1_3.txt');
-  % H=qc2sparse(filename);
+    H=qc2sparse('a2_5g_8_1_3.txt'); 
+
+    % H=qc2sparse(filename);
      [h, g] = h2g(H,2) ;
     %sparse(mod(g*h',2))
     %filename_gen=[filename, '_generator.txt'];
