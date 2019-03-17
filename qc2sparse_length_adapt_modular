@@ -1,0 +1,31 @@
+function [H,n,m,current_shift] = qc2sparse_length_adapt_modular(qcHFileName,current_shift,toqcHFileName)
+fid = fopen(qcHFileName, 'r');
+fid2 = fopen(toqcHFileName, 'w');
+n = fscanf(fid, '%d', [1 1]);
+fprintf(fid2,'%d\t',n);
+m = fscanf(fid, '%d', [1 1]);
+fprintf(fid2,'%d\t',m);
+fprintf(fid2,'%d\n',current_shift);
+zmax= fscanf(fid, '%d', [1 1]);
+I = sparse(eye(current_shift));
+Z = sparse(zeros(current_shift));
+H = sparse([]);
+for i = 1:m
+    lH = sparse([]);
+    
+    for j = 1:n
+        shift = fscanf(fid, '%d', [1 1]);
+        if shift == -1
+            lH = [lH Z];
+            fprintf(fid2,'%d\t',-1);
+        else
+            lH = [lH circshift(I, [0 mod(shift,current_shift)])];
+            fprintf(fid2,'%d\t',mod(shift,current_shift));
+        end
+    end
+     fprintf(fid2,'\n');
+    H = [H; lH];
+end
+fclose(fid);
+fclose(fid2);
+end
