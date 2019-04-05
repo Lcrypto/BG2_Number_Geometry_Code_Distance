@@ -1,4 +1,8 @@
-function [H,n,m,current_shift] = qc2sparse_length_adapt_modular(qcHFileName,current_shift,toqcHFileName)
+%Matlab script to make modular liftig length adaption of QC-LDPC codes
+%qcHFileName - filename which contain QC description of code
+%current_shift - Size of circulant which we want to get 
+%qcHFileName - filename in which save description of code length adapted with current_shift circulant
+function [H,n,m,current_shift] = qc2sparse_length_adapt_modular(qcHFileName,current_shift,toqcHFileName)  
 fid = fopen(qcHFileName, 'r');
 fid2 = fopen(toqcHFileName, 'w');
 n = fscanf(fid, '%d', [1 1]);
