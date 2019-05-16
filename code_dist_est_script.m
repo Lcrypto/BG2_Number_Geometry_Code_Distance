@@ -1,4 +1,4 @@
-% folder_path = 'C:\Users\u00288620\Desktop\art\samsung\Number Geometry\BG2_Number_Geometry_Code_Distance-master\our\'
+% folder_path = 'C:\Number Geometry\BG2_Number_Geometry_Code_Distance-master\our\'
 % files = dir(folder_path);
 % files = files(3:length(files));
 % len = length(files);
