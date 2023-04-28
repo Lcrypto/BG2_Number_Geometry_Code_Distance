@@ -1,4 +1,4 @@
-# Number Geometry Based Hamming (code) Distance estimation of binary (GF(2) and Ternary (GF(3)) block codes
+# Number Geometry Based Hamming (code) Distance estimation of binary GF(2) and Ternary GF(3) block codes
 
 
 The GitHub repository provides a code distance estimation for eMBB 5G Base Graph 2 (BG2) Multi-Edge Type LDPC with size 62 multiple 52. This estimation is based on the Probabilistically Number Geometry method, and for applied we use Kannan's embedding technique to map the code to a lattice (Ravi Kannan  Minkowski convex body theorem and integer programming. Mathematics of operations research, 12(3):415-440, 1987.).
