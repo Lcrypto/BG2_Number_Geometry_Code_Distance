@@ -9,6 +9,12 @@ The estimation of code distance is critical for designing efficient error-correc
 
 The number of non-zero positions in Euclidean vectors is equivalent to the Hamming weight of binary or ternary codes. This property is beneficial in estimating code distances as it allows us to use techniques from geometry and convex optimization.
 
+
+Our results from code distance challenge https://decodingchallenge.org/low-weight/
+![alt text](https://github.com/Lcrypto/Length-und-Rate-adaptive-code/blob/master/Code_distance_challenge.png)
+
+
+
 Overall, this repository offers a valuable resource for researchers and practitioners interested in optimizing their coding schemes to achieve better error-correction performance. With its support for the Probabilistically Number Geometry method and accurate estimation of the code distance, researchers and practitioners will find this implementation valuable in exploring various strategies for designing efficient error-correcting codes with high-performance rates.
 
 
