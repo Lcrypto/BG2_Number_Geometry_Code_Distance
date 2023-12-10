@@ -15,7 +15,7 @@ Our results from code distance challenge https://decodingchallenge.org/low-weigh
 
 
 
-Overall, this repository offers a valuable resource for researchers and practitioners interested in optimizing their coding schemes to achieve better error-correction performance and estimate security level of lattice and code based Post-Quantum cryptography. With its support for the Probabilistically Number Geometry method and accurate estimation of the code distance, researchers and practitioners will find this implementation valuable in exploring various strategies for designing efficient error-correcting codes with high-performance rates and secure Post-Quantum cryptography.
+Overall, this repository offers a valuable resource for researchers and practitioners interested in optimizing their coding schemes to achieve better error-correction performance and estimate security level of lattice/code based Post-Quantum cryptography. With its support for the Probabilistically Number Geometry method and accurate estimation of the code distance, researchers and practitioners will find this implementation valuable in exploring various strategies for designing efficient error-correcting codes with high-performance rates and secure Post-Quantum cryptography.
 
 
 
