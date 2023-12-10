@@ -17,7 +17,7 @@ Our results from code distance challenge https://decodingchallenge.org/low-weigh
 Overall, this repository offers a valuable resource for researchers and practitioners interested in optimizing their coding schemes to achieve better error-correction performance and estimate security level of lattice/code based Post-Quantum cryptography. With its support for the Probabilistically Number Geometry method and accurate estimation of the code distance, researchers and practitioners will find this implementation valuable in exploring various strategies for designing efficient error-correcting codes with high-performance rates and secure Post-Quantum cryptography.
 
 
-# Reference
+# References
 
 1. Usatyuk V., Egorov. S. and  Svistunov G., "Construction of Length and Rate Adaptive MET QC-LDPC Codes by Cyclic Group Decomposition," 2019 IEEE East-West Design & Test Symposium (EWDTS), Batumi, Georgia, 2019, pp. 1-5, doi: 10.1109/EWDTS.2019.8884427. https://ieeexplore.ieee.org/document/8884427
 2. Ravi Kannan  Minkowski convex body theorem and integer programming. Mathematics of operations research, 12(3):415-440, 1987.
