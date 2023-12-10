@@ -19,7 +19,7 @@ Overall, this repository offers a valuable resource for researchers and practiti
 
 # References
 
-1. Usatyuk V., Egorov. S. and  Svistunov G., "Construction of Length and Rate Adaptive MET QC-LDPC Codes by Cyclic Group Decomposition," 2019 IEEE East-West Design & Test Symposium (EWDTS), Batumi, Georgia, 2019, pp. 1-5, doi: 10.1109/EWDTS.2019.8884427. https://ieeexplore.ieee.org/document/8884427
+1. Usatyuk V., Egorov. S. and  Svistunov G., "Construction of Length and Rate Adaptive MET QC-LDPC Codes by Cyclic Group Decomposition," 2019 IEEE East-West Design & Test Symposium (EWDTS), Batumi, Georgia, 2019, pp. 1-5, doi: 10.1109/EWDTS.2019.8884427. https://ieeexplore.ieee.org/document/8884427 https://github.com/Lcrypto/Length-und-Rate-adaptive-code/tree/master/Codes/5G
 2. Ravi Kannan  Minkowski convex body theorem and integer programming. Mathematics of operations research, 12(3):415-440, 1987.
 3. Yoshinori A., Phong Q. Nguyen, Random Sampling Revisited: Lattice Enumeration with Discrete Pruning, Cryptology ePrint Archive, Report 2017/155, 2017, https://eprint.iacr.org/2017/155 
 4. Yoshitatsu M.,Tadanori T., Kenji K, Estimation of the Success Probability of Random Sampling by the Gram-Charlier Approximation, Cryptology ePrint Archive, Report 2018/815,2018, https://eprint.iacr.org/2018/815
