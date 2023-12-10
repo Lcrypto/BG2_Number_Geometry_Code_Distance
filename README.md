@@ -21,8 +21,8 @@ Overall, this repository offers a valuable resource for researchers and practiti
 
 1. Usatyuk V., Egorov. S. and  Svistunov G., "Construction of Length and Rate Adaptive MET QC-LDPC Codes by Cyclic Group Decomposition," 2019 IEEE East-West Design & Test Symposium (EWDTS), Batumi, Georgia, 2019, pp. 1-5, doi: 10.1109/EWDTS.2019.8884427. https://ieeexplore.ieee.org/document/8884427
 2. Ravi Kannan  Minkowski convex body theorem and integer programming. Mathematics of operations research, 12(3):415-440, 1987.
-3. Yoshinori A., Phong Q. Nguyen, Random Sampling Revisited: Lattice Enumeration with Discrete Pruning ,Cryptology ePrint Archive, Report 2017/155, 2017, https://eprint.iacr.org/2017/155 Yoshitatsu M.,
-4. Tadanori T., Kenji K, Estimation of the Success Probability of Random Sampling by the Gram-Charlier Approximation, Cryptology ePrint Archive, Report 2018/815,2018,\url{https://eprint.iacr.org/2018/815
+3. Yoshinori A., Phong Q. Nguyen, Random Sampling Revisited: Lattice Enumeration with Discrete Pruning ,Cryptology ePrint Archive, Report 2017/155, 2017, https://eprint.iacr.org/2017/155 
+4. Yoshitatsu M.,Tadanori T., Kenji K, Estimation of the Success Probability of Random Sampling by the Gram-Charlier Approximation, Cryptology ePrint Archive, Report 2018/815,2018,\url{https://eprint.iacr.org/2018/815
 5. D. J. MacKay and M. C. Davey, “Evaluation of Gallager codes for short block length and high rate applications,” Proc. of the IMA Workshop on Codes, System and Graphical Models, 1999. Springer-Verlag 2001, pp. 113–130
 6. R. Smarandache and P. O. Vontobel, “Quasi-cyclic LDPC codes: Influence of proto- and Tanner-graph structure on minimum Hamming distance upper bounds,” IEEE Trans. Inf. Theory, vol. 58, no. 2, pp. 585–607, Feb. 2012
 7. B.K. Butler, P.H. Siegel, ”Bounds on the minimum distance of punctured quasi-cyclic LDPC codes,” IEEE Trans. Inf. Theory, vol. 59, no. 7, pp. 4584-4597, July 2013.
