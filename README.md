@@ -3,11 +3,11 @@
 
 The GitHub repository provides a code distance estimation for eMBB 5G Base Graph 2 (BG2) Multi-Edge Type LDPC with size 62 multiple 52 (protograph size), circulant up to 128. We estimate Hamming distances for codes up to 8000 bits code (5G) length, [1]. This estimation is based on the Probabilistically Number Geometry method, and for applied we use Kannan's embedding technique to map the code to a lattice, [2].
 
-After mapping, the Block Korkin-Zolotarev lattice reduction is used to solve the short basis problem, followed by searching for the shortest vector using Random Sampling,[3,4]. This approach has been shown to provide accurate estimates of the code distance for various types of codes.
+After mapping, the Block Korkin-Zolotarev lattice reduction is used to solve the short basis problem, followed by searching for the shortest vector using Random Sampling, [3,4]. This approach has been shown to provide accurate estimates of the code distance for various types of codes.
 
 The estimation of code distance is critical for designing efficient error-correcting codes that can recover from errors introduced during communication. By providing an estimation of the code distance, this implementation allows researchers and practitioners to optimize their coding schemes to achieve better error-correction performance.
 
-The number of non-zero positions in Euclidean vectors is equivalent to the Hamming weight of binary or ternary codes. This property is beneficial in estimating code distances as it allows us to use techniques from geometry and convex optimization. For prune SVP-tree we use upper bound on Hammind distance of QC-LDPC codes using MacKay-Davey-Smarandache-Vontolbel-Butler-Siegel [5-7]  , https://github.com/Lcrypto/Upper-bound-on-code-distance-of-QC-LDPC-codes-based-on-MacKay-Vontobel-Smarandache .
+The number of non-zero positions in Euclidean vectors is equivalent to the Hamming weight of binary or ternary codes. This property is beneficial in estimating code distances as it allows us to use techniques from geometry and convex optimization. For prune SVP-tree we use upper bound on Hammind distance of QC-LDPC codes using MacKay-Davey-Smarandache-Vontolbel-Butler-Siegel [5-7], https://github.com/Lcrypto/Upper-bound-on-code-distance-of-QC-LDPC-codes-based-on-MacKay-Vontobel-Smarandache .
 
 Our results from code distance challenge https://decodingchallenge.org/low-weight/
 ![alt text](https://github.com/Lcrypto/Length-und-Rate-adaptive-code/blob/master/Code_distance_challenge.png)
