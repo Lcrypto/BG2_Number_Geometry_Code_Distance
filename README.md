@@ -1,7 +1,7 @@
 # Number Geometry (Lattice) Based Hamming (code) Distance estimation of binary GF(2) and Ternary GF(3) block codes
 
 
-The GitHub repository provides a code distance estimation for eMBB 5G Base Graph 2 (BG2) Multi-Edge Type LDPC with size 62 multiple 52 (protograph size), circulant up to 128. We estimate Hamming distances for codes up to 8000 bits code (5G) length, [1]. This estimation is based on the Probabilistically Number Geometry method, and for applied we use Kannan's embedding technique to map the code to a lattice, [2].
+The GitHub repository provides a code distance estimation for eMBB 5G Base Graph 2 (BG2) Multi-Edge Type LDPC with size 52 multiple 42 (protograph size, VNs to CNs), circulant up to 128. We estimate Hamming distances for codes up to 8000 bits code (5G) length, [1]. This estimation is based on the Probabilistically Number Geometry method, and for applied we use Kannan's embedding technique to map the code to a lattice, [2].
 
 After mapping, the Block Korkin-Zolotarev lattice reduction is used to solve the short basis problem, followed by searching for the shortest vector using Random Sampling, [3,4]. This approach has been shown to provide accurate estimates of the code distance for various types of codes.
 
